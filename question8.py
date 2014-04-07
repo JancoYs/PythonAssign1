@@ -9,7 +9,7 @@ if (checkP % 2) == 0:
     
 if (p == 0):
   n = 3
-  while n ** 2 < checkP:
+  while n ** 2 <= checkP:
       if (checkP % n) == 0:
 	  print checkP, "is not prime"
 	  p=1
